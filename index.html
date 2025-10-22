@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Профессиональный сайт-визитка Вадима Иванова — веб-разработчика и дизайнера." />
+  <meta name="keywords" content="Вадим Иванов, веб-разработка, дизайн, сайт-визитка, услуги" />
+  <meta name="author" content="Вадим Иванов" />
+  <title>Вадим Иванов — Веб-разработчик и дизайнер</title>
+<link rel="stylesheet" href="simple.css">
+</head>
+<body>
+  <header itemscope itemtype="https://schema.org/Person">
+    <h1 itemprop="name">Вадим Иванов</h1>
+    <p><strong itemprop="jobTitle">Веб-разработчик и дизайнер</strong></p>
+    <p itemprop="description">
+      Добро пожаловать! Я занимаюсь созданием современных, удобных и адаптивных веб-сайтов с 2015 года. Моя цель — помочь вашему бизнесу выглядеть стильно и профессионально в интернете.
+      Имея большой опыт в HTML, CSS, JavaScript и UX/UI дизайне, я готов реализовать проекты любой сложности.
+    </p>
+  </header>
+
+  <nav class="">
+    <ul >
+      <li ><a href="#about">Про меня</a></li>
+      <li><a href="#services">Услуги</a></li>
+      <li><a href="#portfolio">Портфолио</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" itemscope itemtype="https://schema.org/AboutPage">
+      <h2>Обо мне</h2>
+      <p>
+        Меня зовут Вадим Иванов, и веб-разработкой я занимаюсь более 8 лет. За это время я разработал более 50 успешных проектов для малого и среднего бизнеса, фрилансеров и стартапов.
+        Мне важна каждая деталь, поэтому я уделяю внимание не только технической части, но и дизайну, чтобы сайты были одновременно красивыми и удобными.
+      </p class="green">
+      <p>
+        Я постоянно обучаюсь новым технологиям и трендам в веб-индустрии, чтобы создавать современные и эффективные решения.
+      </p>
+    </section>
+
+    <section id="services" itemscope itemtype="https://schema.org/Service">
+      <h2>Услуги</h2>
+      <article itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
+        <h3>Веб-разработка</h3>
+        <p itemprop="itemListElement">
+          Разработка адаптивных сайтов, интернет-магазинов и лендингов с нуля. Использование современных фреймворков и CMS.
+        </p>
+      </article>
+      <article itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
+        <h3>Веб-дизайн</h3>
+        <p itemprop="itemListElement">
+          Создание уникальных дизайнов, подходящих под стиль вашего бренда. Разработка UI/UX для удобства и визуальной привлекательности.
+        </p>
+      </article>
+      <article itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
+        <h3>Оптимизация и поддержка</h3>
+        <p itemprop="itemListElement">
+          SEO-оптимизация, повышение скорости загрузки и регулярное обновление сайта для стабильной работы и роста посещаемости.
+        </p>
+      </article>
+    </section>
+
+    <section id="portfolio">
+      <h2>Портфолио</h2>
+      <p>Вот несколько примеров моих последних проектов:</p>
+      <ul>
+        <li><strong>Сайт ресторана "Вкусный уголок"</strong> — адаптивный дизайн, онлайн-меню, заказ столиков.</li>
+        <li><strong>Интернет-магазин одежды</strong> — интеграция с платежными системами, удобный каталог и фильтры.</li>
+        <li><strong>Личный блог IT-специалиста</strong> — современный и минималистичный дизайн, удобная навигация.</li>
+      </ul>
+    </section>
+
+    <section id="contacts" itemscope itemtype="https://schema.org/ContactPoint">
+      <h2>Контакты</h2>
+      <p>Для сотрудничества или вопросов вы можете связаться со мной:</p>
+      <ul>
+        <li>Телефон: <a href="tel:+79161234567" itemprop="telephone">+7 (916) 123-45-67</a></li>
+        <li>Email: <a href="mailto:vadim.ivanov@example.com" itemprop="email">vadim.ivanov@example.com</a></li>
+        <li>Телеграм: <a href="https://t.me/vadim_ivanov" target="_blank" rel="noopener noreferrer">@vadim_ivanov</a></li>
+      </ul>
+      <p itemprop="areaServed" itemscope itemtype="https://schema.org/Place">
+        Работаю удаленно, доступен по всей России и международно.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Вадим Иванов. Все права защищены.</p>
+  </footer>
+</body>
+</html>
